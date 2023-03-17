@@ -1,8 +1,8 @@
 const exp = require("express");
 const app = exp();
-const asyncApp = require("./APIS/symptomApi");
+const symptomApp = require("./APIS/symptomApi");
 
-app.use("/async",asyncApp)
+app.use("/symptomApp",symptomApp)
 //homepage
 app.get("/", function (req, res) {
   res.send("Home Page");
