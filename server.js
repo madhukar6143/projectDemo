@@ -7,7 +7,7 @@ const searchApp = require('./APIS/searchDisease')
 const cors = require('cors');
 const userApp = require("./UserAPIS/users");
 const corsOptions ={
-    origin:["http://localhost:3000","http://localhost:3001"], 
+    origin:["http://localhost:3000","https://disease-prediction-seneca-project.netlify.app/"], 
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200
 }
