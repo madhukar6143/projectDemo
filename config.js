@@ -2,13 +2,12 @@
 
 const config = {
   db: {
-    host: 'sql12.freemysqlhosting.net',
-    user: 'sql12606962',
-    password: 'ueiLzEp7Bt',
-    database: 'sql12606962',
-    port: 3306
+      host: "localhost",
+      user: "root",
+      password: "madhu",
+      database: "projectdb",
+    }
   }
-}
   
   module.exports = config;
 
